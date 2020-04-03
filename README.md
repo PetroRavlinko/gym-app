@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/PetroRavlinko/gym-app) 
+
 # Gym App
 
 [![CircleCI](https://circleci.com/gh/PetroRavlinko/gym-app.svg?style=svg)](https://circleci.com/gh/PetroRavlinko/gym-app)
