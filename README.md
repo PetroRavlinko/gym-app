@@ -1,6 +1,6 @@
 # Gym App
 
-[![CircleCI](https://circleci.com/gh/MichalZalecki/react-boilerplate-lite.svg?style=svg)](https://circleci.com/gh/MichalZalecki/react-boilerplate-lite)
+[![CircleCI](https://circleci.com/gh/PetroRavlinko/gym-app.svg?style=svg)](https://circleci.com/gh/PetroRavlinko/gym-app)
 
 **Read more:** [What's the best React boilderplate and why you cannot clone it from GitHub?](https://michalzalecki.com/the-best-react-boilerplate/)
 
