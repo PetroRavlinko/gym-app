@@ -1,6 +1,8 @@
 import { hot } from "react-hot-loader/root";
 import React, { useState } from "react";
 
+import HelloMessage from "../components/Workout";
+
 import cls from "./App.css";
 
 export function App() {
@@ -8,6 +10,7 @@ export function App() {
 
   return (
     <div>
+      <HelloMessage />
       <h1 className={cls.title} data-testid="title">
         {text}
       </h1>
