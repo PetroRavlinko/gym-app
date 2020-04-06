@@ -1,11 +1,11 @@
 import React from 'react'
 
-const WorkoutSummary = () => {
+const WorkoutSummary = ({workout}) => {
 
     return (
         <div className="card z-depth-0 project-summary">
             <div className="card-content grey-text text-darken-3">
-                <span className="card-title">Workout Title</span>
+                <span className="card-title">{worckout.title}</span>
                 <p>Posted by John Doe</p>
                 <p className="grey-text">3rd September, 2 AM</p>
             </div>

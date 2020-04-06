@@ -1,13 +1,15 @@
 import React from 'react'
 import WorkoutSummary from './WorkoutSummary'
 
-const WorkoutList = () => {
+const WorkoutList = ({workouts}) => {
 
     return (
         <div className="project-list section">
-            <WorkoutSummary />
-            <WorkoutSummary />
-            <WorkoutSummary />
+            { workouts && workouts.map(workout => {
+                return (
+                    <WorkoutSummary worckout={workout} key={workout.id} />
+                )
+            })}
         </div>
     )
 }
