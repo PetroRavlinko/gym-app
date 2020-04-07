@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import { connect } from 'react-redux'
+import { createWorkout } from '../../store/actions/workoutActions'
 
 class WorkoutForm extends Component {
     state = {
@@ -12,7 +14,7 @@ class WorkoutForm extends Component {
     }
     handleSubmit = (e) => {
         e.preventDefault()
-        console.log(this.state)
+        this.props.createWorkout(this.state)
     }
     render() {
         return (
@@ -37,4 +39,10 @@ class WorkoutForm extends Component {
     }
 }
 
-export default WorkoutForm
+const mapDispatchToProps = (dispatch) => {
+    return {
+        createWorkout: (workout) => dispatch(createWorkout(workout))
+    }
+}
+
+export default connect(null, mapDispatchToProps)(WorkoutForm)
