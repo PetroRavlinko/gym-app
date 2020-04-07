@@ -6,6 +6,8 @@ import { connect } from 'react-redux'
 class Dashboard extends Component {
     render () {
         const { workouts } = this.props
+        console.log(this.props)
+        
         return (
             <div className="dashboad container">
                 <div className="row">
@@ -23,7 +25,7 @@ class Dashboard extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        prjects: state.workout.workouts
+        workouts: state.workout.workouts
     }
 }
 

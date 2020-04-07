@@ -7,7 +7,7 @@ const WorkoutList = ({workouts}) => {
         <div className="project-list section">
             { workouts && workouts.map(workout => {
                 return (
-                    <WorkoutSummary worckout={workout} key={workout.id} />
+                    <WorkoutSummary workout={workout} key={workout.id} />
                 )
             })}
         </div>
